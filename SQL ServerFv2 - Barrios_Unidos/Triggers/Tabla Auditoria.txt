@@ -1,0 +1,2 @@
+Siempre es altamente recomendable la creación de una tabla de auditoria.
+
