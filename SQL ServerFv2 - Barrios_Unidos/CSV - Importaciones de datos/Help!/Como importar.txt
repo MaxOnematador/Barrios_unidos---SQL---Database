@@ -1,0 +1,6 @@
+Para importar los datos tenemos que dirijirnos primero a la base de datos a la cual vamos a importar los datos.
+
+Ej. > Barrios_Unidos
+
+> Tasks > Import Data > That File (Archivos de Textos - Planos) > Browse > Seleccionamos el archivos > Sección Columnas > Si se requiere y la importación falla estable-
+cemos los tipos de variable manualmente > Seleccionamos a que servidor vamos a importar los datos > Ponemos credenciales SQL autenticación en dado caso sea necesario > seleccionamos tabla a agregar la importación y base de datos a tratar en el servidor > Por ultimo le damos ignorar todo en los últimos pasos > en el antepenúltimo revisamos el mapeo automática realizado por SQL para asegurarnos de que las columnas dectectas en el csv sean correctas para la tabla, si no lo son lo hacemos manualmente. La detección automática del mapeo dependerá que las columnas del csv sean igual a los atributos que disponemos en nuestras tablas de la base de datos.
